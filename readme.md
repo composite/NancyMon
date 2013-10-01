@@ -28,6 +28,15 @@ Note
 Currently not supported for non-stop development features like auto deploy, change resourses monitor.
 
 but, I'll keep involve this project for less-cost, portablity development for Nancy.
+
+TODO
+----
+
+ - FileSystemWatcher : Watching bin/resource files in application root folder. (Why I defined 3 objects?)
+ - AppDomain uses : When bin or source file changes(.cs, .vb, etc), Dispose AppDomain for unload module, initialize, and create new AppDomain.
+ - What is .nancyignore? : just ignore file list like .gitignore!
+ - Don't watch these directory : lib is use for static DLLs. public folder(css, js, etc) changing is not nessisary.
+ - Could you help me? : Basically, I'm fiest used AppDomain class. so currently not showing unexpected result when run this program. I need youer help.
  
 License
 -------
